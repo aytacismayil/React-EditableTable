@@ -259,7 +259,7 @@ table tr td:nth-child(5){
   width: 200px;
 }
 table tr td:nth-child(6){
-  width: 163px;
+  width: 180px;
 }
 table tr td:nth-child(7){
   width: 100px;
@@ -295,7 +295,7 @@ table tr td input {
   width: 100%;
   border: none;
   outline: none;
-  text-align: left;
+  text-align: center;
   color: #74777A;
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -647,7 +647,6 @@ section.error-container article li:active{
 }
 article.pagination-container{
   margin-bottom: 60px;
-  margin: 0px 60px 40px 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -701,6 +700,10 @@ section.search-container{
   align-items: flex-end;
   margin-bottom: 40px;
   
+}
+
+.fa, .fas{
+  color: #FA6476;
 }
 
 @media only screen and (max-width: 840px) {
