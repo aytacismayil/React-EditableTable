@@ -13,7 +13,7 @@ body {
 nav{
   position: absolute;
   top: 30px;
-  left: 30px; 
+  right: 30px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +156,7 @@ article.table-container {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 83vw;
+  width: 100%;
 }
 table#employees{
   background-color: #ffffff;
@@ -173,7 +173,7 @@ table#employees{
   article.table-container{
     overflow-x:scroll;
     align-items: flex-start;
-    width: 90vw;
+    width: 100%;
   }
 
   article.table-container::-webkit-scrollbar {
@@ -688,19 +688,19 @@ article.pagination-container ul li:active{
   box-shadow: 0 1px 5px 0px rgba(15, 34, 205, 0.05);
 }
 
-section.search-container{
-  /* position: absolute;
-  top: 30px;
-  left: 30px; */
-  width: 100%;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  margin-bottom: 40px;
-  
-}
+  section.search-container{
+    /* position: absolute;
+    top: 30px;
+    left: 30px; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    padding-left: 30px;
+  }
 
 .fa, .fas{
   color: #FA6476;
