@@ -130,14 +130,7 @@ const EmployeesContextProvider = (props) => {
       setUpdatedEmployees(comparedEmloyeesArr)
     },[employees])
 
-     // useEffect(() => {
-    //   console.log(updatedEmployees)
-    // }, [updatedEmployees])
-
-    // useEffect(() => {
-    //   console.log(deletedEmployees)
-    // }, [deletedEmployees])
-
+    
     // PAGINATION
     const paginate = useCallback((pageNumber) => {
         const indexOfLastEmployee = pageNumber * employeesPerPage;
