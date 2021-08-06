@@ -6,14 +6,12 @@ const Pagination = ({employeesPerPage, employees, currentPage, paginate}) => {
     for (let i = 1; i <= Math.ceil(totalEmployees / employeesPerPage); i++) {
           pageNumbers.push(i);
     }
-
     return (
         <article className="pagination-container">
             <ul>
                 {
                     pageNumbers.length === 0 ? <li className="selected" onClick={() => paginate(1)}><div>1</div></li> : null
-                }
-                
+                }   
                 {
                     pageNumbers.map(pageNumber => {
                         return (

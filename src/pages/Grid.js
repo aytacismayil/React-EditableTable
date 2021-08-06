@@ -9,10 +9,8 @@ import Search from '../components/Search'
 function Grid() {
 
 const {employees,isModalOpened,updatedAndDeletedEmployees,deleteEmployee,showModal,resetData,handleEmployeeTableCell, currentEmployees, employeesPerPage, currentPage, paginate, searchTerm, isSearched, handleChange, handleSubmit} = useContext(EmployeesContext)
-
   return (
-    <main>
-       
+    <main> 
         <section className="container">
         <Search searchTerm={searchTerm} handleChange={handleChange} handleSubmit={handleSubmit}/>
         <div className="btns-container">    
